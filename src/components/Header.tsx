@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           <div className="flex items-center space-x-10">
             <a href="/" className="flex items-center">
               <h1 className="text-2xl font-bold text-medical-primary">
-                Doctor<span className="text-medical-secondary">Finder</span>
+                Apollo
               </h1>
             </a>
 
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
             </Button>
             <Button variant="outline" className="hidden md:flex">
               <User className="mr-2 h-4 w-4" />
-              Login / Register
+              Login
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="h-6 w-6" />

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import DoctorCard from "../components/DoctorCard";
@@ -46,7 +45,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50">
+    <div className="min-h-screen flex flex-col bg-slate-50 overflow-y-auto">
       <Header />
 
       <div className="container max-w-7xl mx-auto px-4 py-6">
@@ -126,7 +125,7 @@ const Index = () => {
             General physicians are medical doctors who diagnose and treat a wide range of health conditions and diseases. They provide primary healthcare services and refer patients to specialists when needed. Internal medicine specialists focus on the prevention, diagnosis, and treatment of adult diseases.
           </p>
           <div className="mt-6 text-sm text-gray-500">
-            © 2025 DoctorFinder. All rights reserved.
+            © 2025 Apollo. All rights reserved.
           </div>
         </div>
       </div>

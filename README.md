@@ -1,73 +1,40 @@
-# Welcome to your Lovable project
+# Doctor Appointment Filter Page
 
-## Project info
+This project focuses on creating a filter page where users can search for doctors based on different criteria like specialty, location, consultation fee, rating, and availability. The filtered results can be used for booking appointments.
 
-**URL**: https://lovable.dev/projects/7ea86ee7-97d1-48b3-a06f-62b4e08a2b6f
+## Features
 
-## How can I edit this code?
+- **Filter Doctors by:**
+  - Specialty (e.g., General Physician, Internal Medicine, etc.)
+  - Location (e.g., Mumbai, Delhi, etc.)
+  - Experience (minimum number of years)
+  - Consultation Fee (within a given range)
+  - Rating (minimum rating threshold)
+  - Availability (days of the week)
+  - Language (languages spoken by the doctor)
+- **Display Filtered Results**: Shows a list of doctors that match the filter criteria.
+- **Responsive Design**: Mobile-friendly filter options.
+- **Pagination**: Paginate the list of filtered doctors to avoid overwhelming the user.
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- **React.js** for building the user interface.
+- **Next.js** for server-side rendering and routing.
+- **Tailwind CSS** for styling.
+- **TypeScript** for type safety.
+- **Mock Data**: Using static data for simulating API calls.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7ea86ee7-97d1-48b3-a06f-62b4e08a2b6f) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (LTS version recommended)
+- npm or yarn (for package management)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7ea86ee7-97d1-48b3-a06f-62b4e08a2b6f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/doctor-appointment-filter.git
+   cd doctor-appointment-filter
+   ```
