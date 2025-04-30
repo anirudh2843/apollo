@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				medical: {
+					primary: '#1976d2',
+					secondary: '#0047AB',
+					light: '#e3f2fd',
+					dark: '#002984',
+					accent: '#ff5722',
 				}
 			},
 			borderRadius: {
@@ -89,6 +97,9 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				nunito: ['Nunito', 'sans-serif'],
 			}
 		}
 	},
