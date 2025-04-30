@@ -1,4 +1,4 @@
-# Doctor Appointment Filter Page
+# Apollo Doctor Appointment Filter Page
 
 This project focuses on creating a filter page where users can search for doctors based on different criteria like specialty, location, consultation fee, rating, and availability. The filtered results can be used for booking appointments.
 
